@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Online Assignment Submission System</title><link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header><h1>Online Assignment Submission System</h1><p>Submit and manage assignments online</p></header>
+<main class="container">
+<section class="card"><h2>Submit Assignment</h2>
+<form id="assignmentForm">
+<label>Student Name</label><input id="studentName" required>
+<label>Roll Number</label><input id="rollNo" required>
+<label>Subject</label><input id="subject" required>
+<label>Assignment Title</label><input id="title" required>
+<label>Due Date</label><input type="date" id="dueDate" required>
+<label>Assignment File</label><input type="file" id="file" accept=".pdf,.doc,.docx,.txt" required>
+<button type="submit">Submit Assignment</button>
+</form><p id="message"></p></section>
+<section class="card"><h2>Submitted Assignments</h2><div id="list"></div></section>
+</main><footer>Online Assignment Submission System © 2026</footer>
+<script src="js/script.js"></script>
+</body></html>
